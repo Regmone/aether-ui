@@ -1,0 +1,14 @@
+# This file lists the Python packages required by the Aether-UI Bridge Oracle.
+# It is recommended to install these in a virtual environment.
+#
+# To install, run:
+# pip install -r requirements.txt
+
+# The core library for interacting with Ethereum-compatible blockchains.
+web3==6.12.0
+
+# Used by Web3.py for making HTTP requests to the blockchain RPC endpoint.
+requests==2.31.0
+
+# For loading environment variables from a .env file, which is a best practice for managing configuration and secrets.
+python-dotenv==1.0.1
